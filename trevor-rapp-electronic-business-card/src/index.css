@@ -1,6 +1,18 @@
-
+body {
+  background-color: #23252C;
+  display: flex;
+  flex-direction: column;
+  
+}
 .photo {
   width: 317px;
   height: 317px; 
   background-color: gray;
+}
+
+.footer--container {
+  background-color: blue;
+  width: 317px; 
+  height: 64px; 
+  border-radius: 0px 0px 0px 10px;
 }

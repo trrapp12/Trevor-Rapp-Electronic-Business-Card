@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Photo from './Photo'
 import Button from './Button'
+import Footer from './Footer'
 
 
 const App = (props) => {
@@ -22,6 +23,7 @@ const App = (props) => {
         name="Email"
         action="mailto: trrapp@gmail.com"
       />
+      <Footer />
     </>
 
   )
