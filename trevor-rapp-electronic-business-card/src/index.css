@@ -1,13 +1,23 @@
 body {
-  background-color: #23252C;
+  background-color: black;
   display: flex;
   flex-direction: column;
-  
+  font-family: nimbus-sans-extended, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
+
+.container {
+  width: 550px; 
+  height: 868px; 
+  background-color: #23252C;
+}
+
 .photo {
   width: 317px;
   height: 317px; 
   background-color: gray;
+  margin: auto;
 }
 
 .footer--container {
@@ -15,4 +25,29 @@ body {
   width: 317px; 
   height: 64px; 
   border-radius: 0px 0px 0px 10px;
+}
+
+.lni {
+  color: white;
+}
+
+.header {
+  font-family: carbon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
