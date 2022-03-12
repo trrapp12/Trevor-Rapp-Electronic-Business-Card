@@ -51,7 +51,7 @@ A basic static page built using React.
 ### Project published at: 
 ---
 
-[REACT FACTS](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
+[Trevor-Rapp-Electronic-Business-Card](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
 
 ### More Information:
 ---
