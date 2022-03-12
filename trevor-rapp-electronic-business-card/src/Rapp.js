@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rapp = (props) => {
   return (
-    <div className="header rotate">Rapp</div>
+    <div className="header rotate">T.R.Rapp</div>
   )
 }
 
