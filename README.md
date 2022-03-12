@@ -9,7 +9,7 @@
 
 ![screenshot-localhost_3000-2022 03 11-21_21_32](https://user-images.githubusercontent.com/11747875/158003512-41dfd832-62a6-4bfc-95e8-33cb618496f2.png)
 
-[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/React-Jokes/)
+[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
 
 <br>
 
@@ -37,7 +37,8 @@ A basic static page built using React.
 ### Project v1.0 demonstrates the following:
 ---
 
-- [x] Use of JSX
+- [x] Use of map() to iterate of array of items to create JSX elements
+- [x] Use of props
 - [x] Use of basic syntax and architecture of React
 - [x] Use of parent > child components
 - [x] Use of custom composable, reusable components
@@ -50,7 +51,7 @@ A basic static page built using React.
 ### Project published at: 
 ---
 
-[REACT FACTS](https://trrapp12.github.io/React-Jokes/)
+[REACT FACTS](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
 
 ### More Information:
 ---
