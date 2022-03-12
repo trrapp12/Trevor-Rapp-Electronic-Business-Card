@@ -7,7 +7,7 @@
 
 <br>
 
-![screenshot-localhost_3000-2022 03 02-07_54_45](https://user-images.githubusercontent.com/11747875/156386294-0178003b-a2e8-442a-a5e2-59beb3274268.png)
+![screenshot-localhost_3000-2022 03 11-21_21_32](https://user-images.githubusercontent.com/11747875/158003512-41dfd832-62a6-4bfc-95e8-33cb618496f2.png)
 
 [![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/React-Jokes/)
 
