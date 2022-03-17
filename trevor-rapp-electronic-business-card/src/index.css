@@ -11,6 +11,7 @@
   margin: auto;
   padding: 3.43em;
   position: relative;
+  box-shadow: inset 8px 9px 10px rgb(255 255 255 / 3%), inset -8px -2px 16px rgb(0 0 0 / 52%);
 }
 
 .app--inner-container {
@@ -24,7 +25,7 @@
 
 body {
   background-color: black;
-  color: white;
+  color: #ffffff94;
   display: flex;
   flex-direction: column;
   font-family: nimbus-sans-extended, sans-serif;
@@ -60,11 +61,24 @@ button > .lni-github-original {
   justify-content: flex-start;
 }
 
+.button--icon {
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px;
+  padding: 17px;
+  background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
+  /* border: 1px solid #4065A8; */
+}
+
 .footer--container {
   width: 100%;
   height: 8.5em;
   border-radius: 0px 0px 0px 10px;
-  padding-left: 46px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10% auto 0 auto;
 }
 
 form {
@@ -73,7 +87,6 @@ form {
 
 .lni {
   font-size: 2.25em;
-  margin: 0 46px 31px 0px;
   color: #4065A8;
 }
 
