@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 
 
-const App = (props) => {
+const App = () => {
   return(
     <div className="app--container">
       <div className="app--inner-container">

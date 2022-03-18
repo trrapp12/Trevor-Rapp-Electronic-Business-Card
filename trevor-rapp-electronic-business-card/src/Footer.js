@@ -7,19 +7,19 @@ const Footer = (props) => {
   const iconsObjectArray = [
     {
       class: "lni lni-html5",
-      url : "https://github.com/trrapp12/Product-Page"
+      url : "https://trrapp12.github.io/Product-Page/"
     },
     {
       class: "lni lni-css3",
-      url : "https://github.com/trrapp12/diana-tribute"
+      url : "https://www.dianarapp.com/"
     },
     {
       class: "lni lni-javascript",
-      url : "https://github.com/trrapp12/Slap-Happy"
+      url : "https://trrapp12.github.io/Slap-Happy/"
     },
     {
       class: "lni lni-react",
-      url : "https://github.com/trrapp12/React-Jokes"
+      url : "https://trrapp12.github.io/React-Jokes/"
     },
     {
       class: "lni lni-nodejs",
@@ -48,7 +48,7 @@ const Footer = (props) => {
   ];
 
   const iconsArrayOutput = iconsObjectArray.map((input) => {
-    return <div className="button--icon"><a href={input.url} target="_default" ><i className={input.class} ></i></a></div>
+    return <button className="button--icon"><a href={input.url} target="_default" ><i className={input.class} ></i></a></button>
   })
 
   return (

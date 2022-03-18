@@ -62,14 +62,62 @@ button > .lni-github-original {
 }
 
 .button--icon {
+  margin: 11px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px;
+  padding: 15px;
+  background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
+  border: 1px solid #23252c;
+  transition: 250ms;
+  /* border: 1px solid #4065A8; */
+}
+
+
+.button--icon:hover {
   margin: 10px;
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 9px;
-  padding: 17px;
+  padding: 13px;
   background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
-  /* border: 1px solid #4065A8; */
+  transition: 250ms;
+  border: 2px solid #23252c;
 }
+
+.button--icon:focus {
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px;
+  padding: 13px;
+  background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
+  transition: 250ms;
+  border: 2px solid #23252c;
+}
+
+.button--icon:active {
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px;
+  padding: 13px;
+  background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
+  transition: 250ms;
+  border: 2px solid #23252c;
+}
+
+.button--touch-state {
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px;
+  padding: 13px;
+  background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
+  transition: 250ms;
+  border: 2px solid #23252c;
+}
+
 
 .footer--container {
   width: 100%;
@@ -88,6 +136,35 @@ form {
 .lni {
   font-size: 2.25em;
   color: #4065A8;
+  transition: 250ms;
+}
+
+.lni:hover {
+  font-size: 2.25em;
+  color: rgb(245, 173, 118);
+  color: rgba(245, 173, 118, .7);
+  transition: 250ms;
+}
+
+.lni:focus {
+  font-size: 2.25em;
+  color: rgb(245, 173, 118);
+  color: rgba(245, 173, 118, .7);
+  transition: 250ms;
+}
+
+.lni:active {
+  font-size: 2.25em;
+  color: rgb(245, 173, 118);
+  color: rgba(245, 173, 118, .7);
+  transition: 250ms;
+}
+
+.lni--touch-state {
+  font-size: 2.25em;
+  color: rgb(245, 173, 118);
+  color: rgba(245, 173, 118, .7);
+  transition: 250ms;
 }
 
 h1 {
