@@ -39,16 +39,19 @@ const Footer = (props) => {
     },
     {
       class: "lni lni-angular",
-      url : "https://github.com/trrapp12/avengers_agents_of_shield_directory"
+      url : "https://trrapp12.github.io/avengers_agents_of_shield_directory/#/list"
     },
     {
       class: "lni lni-adobe",
       url : "https://github.com/trrapp12/Flex_Box_Photo_Portfolio"
     }
   ];
-
-  const iconsArrayOutput = iconsObjectArray.map((input) => {
-    return <button className="button--icon"><a href={input.url} target="_default" ><i className={input.class} ></i></a></button>
+   
+  const iconsArrayOutput = iconsObjectArray.map((input, index) => {
+    let buttonKey = ("button" + index);
+    let aKey = ("a" + index);
+    let iKey = ("i" + index)
+    return <button key={buttonKey} className="button--icon"><a className="button--a" key={aKey} href={input.url} target="_default" ><i key={iKey} className={input.class} ></i></a></button>
   })
 
   return (

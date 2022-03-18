@@ -43,60 +43,60 @@
     -->
 
     <script>
-      (() => {
+    (() => {
         console.log('set time out IFFE fired');
 
           window.addEventListener('load', () => {
-            let iconContainer = document.querySelectorAll('.button--icon');
+            console.log('window loaded');
             
-            // console.log(iconContainer);
-
             document.querySelector('.footer--container').addEventListener('touchstart', (evt) => {
+              
+              console.log(evt.target);
+              
               evt.preventDefault();
 
-              setTimeout( function(){
+              setTimeout(function() {
+                
+                if (evt.target.className.includes("lni")) {
+                  
+                  window.location.href = evt.target.parentElement.href;
 
-                evt.target.classList.add('.lni--touch-state')
-                window.location.href = evt.target.childNodes[0].href;
-              }, 1000);
-            })
+                } else if (evt.target.className.includes("button--a")) {
+
+                  window.location.href = evt.target.childNodes[0].href;
+
+                } else if (evt.target.className.includes("button--icon")) {
+
+                  window.location.href = evt.target.href;
+                }
+                
+              }, 1700);
+            });
 
         //  loops through the node list of the icons containers to apply event listeners individually
-            for (let i = 0; i < iconContainer.length; i++) {
-              console.log("entered for loop: iconContainer is" + iconContainer);
-          //  touch start event for touch screens, adds class to make button look like it's getting pushed
-              iconContainer[i].addEventListener("touchstart", (evt) => {
-                evt.preventDefault();
+          //   for (let i = 0; i < iconContainer.length; i++) {
+          //     console.log("entered for loop: iconContainer[i] is" + JSON.stringify(iconContainer[0]));
+          // //  touch start event for touch screens, adds class to make button look like it's getting pushed
+          //     iconContainer[i].addEventListener("touchstart", (evt) => {
 
-                  console.log(evt.target)
-
-                setTimeout(() => {
-                  
-                  console.log('touchstart event occurred');
-
-                  console.log(evt.target);
-
-                window.location.href = evt.target.href;
-              }, 1000);
+          //       setTimeout(() => {
+          //         window.location.href = evt.target.childNodes[0].href;
+          //       }, 1000);
                          
-              iconContainer[i].addEventListener("click", (evt) => {
-                evt.preventDefault();
-
-                setTimeout(() => {
-                  window.location.href = evt.target.href;
-                }, 1000);
-              });
-
-          });
-          //  removes the class so it looks like button snaps back up
-        }
-      });
-    })();
-    </script>
-    <script>
-      (() => {
+          //     iconContainer[i].addEventListener("click", (evt) => {
+          //       setTimeout(() => {
+          //         window.location.href = evt.target.href;
+          //       }, 1000);
+          //     });
+          //   });
+          // }
+        });
+      })();
+      </script>
+      <script>
+        (() => {
         // grabs outside container of the icons
-       let iconContainer = document.getElementsByClassName('.button--icon');
+        let iconContainer = document.getElementsByClassName('.button--icon');
       //  grabs the icons themselves
        let icons = document.getElementsByClassName('lni');
 
