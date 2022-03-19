@@ -51,7 +51,7 @@ const Footer = (props) => {
     let buttonKey = ("button" + index);
     let aKey = ("a" + index);
     let iKey = ("i" + index)
-    return <button key={buttonKey} className="button--icon"><a className="button--a" key={aKey} href={input.url} target="_default" ><i key={iKey} className={input.class} ></i></a></button>
+    return <button key={buttonKey} className="button--icon"><a className="button--a" key={aKey} href={input.url} target="_blank" ><i key={iKey} className={input.class} ></i></a></button>
   })
 
   return (
