@@ -50,10 +50,16 @@ A basic static page built using React.
 - [x] Use of import and export statements
 - [x] Use of local server with webpack
 
+<br>
+<br>
+
 ### Trevor-Rapp-Electronic-Business-Card published at: 
 ---
 
 [Trevor-Rapp-Electronic-Business-Card](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
+
+<br>
+<br>
 
 ### More Information:
 ---
