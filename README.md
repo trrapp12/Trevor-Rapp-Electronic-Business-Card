@@ -25,14 +25,15 @@
 <br>
 <br>
 
----
-
 ### Description:
 
-
 ---
 
+
 A basic static page built using React. 
+
+<br>
+<br>
 
 ### Trevor-Rapp-Electronic-Business-Card v1.0 demonstrates the following:
 ---
