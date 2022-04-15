@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Trevor-Rapp-Electronic-Business-Card/static/css/main.506f0cf5.css",
-    "main.js": "/Trevor-Rapp-Electronic-Business-Card/static/js/main.09ea198c.js",
+    "main.css": "/Trevor-Rapp-Electronic-Business-Card/static/css/main.94da3194.css",
+    "main.js": "/Trevor-Rapp-Electronic-Business-Card/static/js/main.d1e739c0.js",
     "static/media/Trevor_084.jpg": "/Trevor-Rapp-Electronic-Business-Card/static/media/Trevor_084.cb346970da79f2b69415.jpg",
     "index.html": "/Trevor-Rapp-Electronic-Business-Card/index.html",
     "static/media/Vector.svg": "/Trevor-Rapp-Electronic-Business-Card/static/media/Vector.19612fdb23c98848437a9163121397e7.svg",
-    "static/media/envelope.svg": "/Trevor-Rapp-Electronic-Business-Card/static/media/envelope.9a2254b41727510aba0d31da7ad223f9.svg",
-    "main.506f0cf5.css.map": "/Trevor-Rapp-Electronic-Business-Card/static/css/main.506f0cf5.css.map",
-    "main.09ea198c.js.map": "/Trevor-Rapp-Electronic-Business-Card/static/js/main.09ea198c.js.map"
+    "main.94da3194.css.map": "/Trevor-Rapp-Electronic-Business-Card/static/css/main.94da3194.css.map",
+    "main.d1e739c0.js.map": "/Trevor-Rapp-Electronic-Business-Card/static/js/main.d1e739c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.506f0cf5.css",
-    "static/js/main.09ea198c.js"
+    "static/css/main.94da3194.css",
+    "static/js/main.d1e739c0.js"
   ]
 }
