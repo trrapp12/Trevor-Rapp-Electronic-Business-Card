@@ -1,7 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import LinkedIn from './assets/Vector.svg'
-import Envelope from './assets/envelope.svg'
 import BioPhoto from './assets/Trevor_084.jpg'
 import Rapp from './Rapp'
 import Photo from './Photo'
