@@ -37,7 +37,7 @@ A basic static page built using React.
 <br>
 <br>
 
-### Trevor-Rapp-Electronic-Business-Card v1.0 demonstrates the following:
+### Project demonstrates:
 ---
 
 - [x] Use of map() to iterate of array of items to create JSX elements
@@ -55,16 +55,20 @@ A basic static page built using React.
 <br>
 <br>
 
-### Trevor-Rapp-Electronic-Business-Card published at: 
 ---
 
-[Trevor-Rapp-Electronic-Business-Card](https://trrapp12.github.io/Trevor-Rapp-Electronic-Business-Card/)
+### Personal Contributions: 
+
+
+All development work is completely my own.  Design provided by Figma files in the course.
 
 <br>
 <br>
 
-### More Information:
 ---
+
+### YOU CAN FIND ME AT
+
 
 \**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
 
