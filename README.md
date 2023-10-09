@@ -27,17 +27,23 @@
 <br>
 <br>
 
-### Description:
-
 ---
 
+### DESCRIPTION:
+
+>When work is not going well, it's useful to remember
+>>that our identities stretch beyond what is on the business card,
+>that we were people long before we became workers -
+>and will continue to be human once we have put our tools down forever.
+
+-- Alain de Botton
 
 A basic static page built using React. 
 
 <br>
 <br>
 
-### Project demonstrates:
+### PR0JECT DEMONSTRATES:
 ---
 
 - [x] Use of map() to iterate of array of items to create JSX elements
@@ -57,7 +63,7 @@ A basic static page built using React.
 
 ---
 
-### Personal Contributions: 
+### PERSONAL CONTRIBUTION: 
 
 
 All development work is completely my own.  Design provided by Figma files in the course.
@@ -67,7 +73,16 @@ All development work is completely my own.  Design provided by Figma files in th
 
 ---
 
-### YOU CAN FIND ME AT
+### ATTRIBUTIONS: 
+
+* course assignment designed by Bob Ziroll
+
+<br>
+<br>
+
+---
+
+### YOU CAN FIND ME AT:
 
 
 \**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
