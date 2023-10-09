@@ -3,6 +3,8 @@
 
 ##### Contributors: Trevor Rapp
 
+** this was a Solo project for the Scrimba [Front-End Developer Career Path](https://scrimba.com/learn/frontend/section-recap-co014428e8642aa862044633d).  The only thing provided were the requirements of the assignment and a Figma file.  All work is completely my own. **
+
 ---
 
 <br>
