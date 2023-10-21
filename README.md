@@ -38,7 +38,7 @@
 
 -- Alain de Botton
 
-A basic static page built using React. 
+*A basic static page built using React.*
 
 <br>
 <br>
