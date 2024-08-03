@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+ 
+# Environment variable files
+.env
+
+# Production build files
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Webpack cache
+.cache/
+
+# Build directory
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary folders
+tmp/
+temp/
+
+# Ignore .babelrc if you're using babel.config.js instead
+.babelrc
+
+# Ignore eslint configuration if you're using eslint.config.js instead
+.eslintrc
