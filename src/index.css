@@ -12,20 +12,22 @@ html {
 }
 
 #root {
-  border: 1px solid red;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .app--container {
-  background-color: rgba(35, 37, 44, .8);
-  box-shadow: inset 8px 9px 10px hsla(0, 0%, 100%, .03), inset -8px -2px 16px rgba(0, 0, 0, .52);
+  background-color: rgba(35, 37, 44, 0.8);
+  box-shadow: inset 8px 9px 10px hsla(0, 0%, 100%, 0.03),
+    inset -8px -2px 16px rgba(0, 0, 0, 0.52);
   margin: auto;
-  min-height: 100vh;
-  padding: 3.43em;
+  padding: 2em;
   position: relative;
   width: 35.37em;
-  /* height: 146%; */
 }
 
 .app--inner-container {
@@ -69,7 +71,7 @@ body {
   align-items: center;
 }
 
-button>.lni-github-original {
+button > .lni-github-original {
   font-size: 17px;
   margin: 0;
 }
@@ -93,7 +95,6 @@ button>.lni-github-original {
   transition: 250ms;
   /* border: 1px solid #4065A8; */
 }
-
 
 .button--icon:hover {
   margin: 11px;
@@ -142,7 +143,6 @@ button>.lni-github-original {
   border: 2px solid #23252c;
 }
 
-
 .footer--container {
   width: 100%;
   height: 8.5em;
@@ -159,126 +159,143 @@ form {
 
 .lni {
   font-size: 2.25em;
-  color: #4065A8;
+  color: #4065a8;
   transition: 250ms;
 }
 
 .lni:hover {
   font-size: 2.25em;
   color: rgb(245, 173, 118);
-  color: rgba(245, 173, 118, .7);
+  color: rgba(245, 173, 118, 0.7);
   transition: 250ms;
 }
 
 .lni:focus {
   font-size: 2.25em;
   color: rgb(245, 173, 118);
-  color: rgba(245, 173, 118, .7);
+  color: rgba(245, 173, 118, 0.7);
   transition: 250ms;
 }
 
 .lni:active {
   font-size: 2.25em;
   color: rgb(245, 173, 118);
-  color: rgba(245, 173, 118, .7);
+  color: rgba(245, 173, 118, 0.7);
   transition: 250ms;
 }
 
 .lni--touch-state {
   font-size: 2.25em;
   color: rgb(245, 173, 118);
-  color: rgba(245, 173, 118, .7);
+  color: rgba(245, 173, 118, 0.7);
   transition: 250ms;
 }
 
 h1 {
   margin: 1em auto 1em auto;
-  color: #F5AD76;
+  color: #f5ad76;
   font-size: 1.5em;
-
 }
 
 .header {
   font-family: carbon, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #5876A6;
-  font-size: 11em;
+  color: #5876a6;
+  font-size: 7em;
   display: block;
   position: absolute;
   height: 86px;
   transform: translateX(100px);
-  transform: rotate(-90deg) translate(-261px, -461px);
+  transform: rotate(-90deg) translate(-250px, -331px);
   z-index: -1;
   letter-spacing: 7px;
 }
 
 .linkedin {
-  background-color: #5093E2;
+  background-color: #5093e2;
   color: white;
 }
 
 p {
   margin: 1.5em 1.5em 3em 0;
-  line-height: 3em;
+  line-height: 1.25em;
 }
 
 .photo {
-  width: 270px;
-  height: 270px;
+  width: 16.875em;
+  height: 16.875em;
   background-color: gray;
   margin: auto;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
-@media only screen and (max-width: 900px) and (orientation: landscape) {
-
-
-  .app--container {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: rgba(35, 37, 44, .8);
-    margin: auto;
-    padding: 0;
-    position: relative;
-    box-shadow: inset 8px 9px 10px rgb(255 255 255 / 3%), inset -8px -2px 16px rgb(0 0 0 / 52%);
+@media only screen and (orientation: landscape) {
+  #root {
+    width: 100%;
+    display: block;
   }
 
   .app--inner-container {
-    margin: 0;
+    width: 100%;
+    margin-left: 9em;
+    display: grid;
+    grid-template-rows: 50vh;
+    grid-template-columns: 1fr 3fr;
+    /* gap: 2em; */
+  }
+
+  .app--container {
+    background-color: rgba(35, 37, 44, 0.8);
+    box-shadow: inset 8px 9px 10px hsla(0, 0%, 100%, 0.03),
+      inset -8px -2px 16px rgba(0, 0, 0, 0.52);
+    margin: auto;
+    padding: 2em;
+    position: relative;
+    /* width: 35.37em; */
+    width: auto;
+    height: 100%;
     display: flex;
-    width: 100vw;
-    flex-flow: row;
-    padding: 2em 2em 0 2em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
   }
 
   .header {
     font-family: carbon, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #5876A6;
-    font-size: 7em;
-    display: block;
-    position: absolute;
+    color: #5876a6;
+    font-size: 8vw;
+    display: grid;
+    position: relative;
     height: -moz-fit-content;
-    height: fit-content;
-    transform: translate(205px, 0px);
+    /* height: fit-content; */
+    transform: translate(0px, 0px);
     z-index: -1;
     letter-spacing: 7px;
-    width: 50vw;
+    width: 100%;
+    grid-row: 1 / -1;
+    grid-column: 2 / 3;
+    font-size: calc(5vw + 5vh + 5vmin);
   }
 
   .app-right-column {
     padding-left: 0;
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
   }
 
   .photo {
-    width: 328px;
-    height: 264px;
+    width: 20.5em;
+    height: 16.5em;
     background-color: gray;
     margin: 0px 1em 0px 0px;
     object-fit: cover;
@@ -287,7 +304,7 @@ p {
 
   h1 {
     margin: 6em auto 1em auto;
-    color: #F5AD76;
+    color: #f5ad76;
     font-size: 1.5em;
     display: none;
     /* position: absolute; */
@@ -302,19 +319,20 @@ p {
   }
 
   .footer--container {
-    width: 97%;
+    width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     border-radius: 0px 0px 0px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: .5em auto 0 auto;
-    justify-content: space-evenly;
+    margin: 2em auto 0 auto;
+    justify-content: center;
+    gap: 1em;
   }
 
   p {
-    margin: 8.5em 1.5em -2em 1em;
+    /* margin: 8.5em 1.5em -2em 1em; */
     line-height: 2em;
     width: 83%;
   }
@@ -327,6 +345,12 @@ p {
     padding: 8px;
     background: linear-gradient(180deg, #4064a8 -68%, #23252c 25%);
     border: 1px solid #23252c;
+    transition: 250ms;
+  }
+
+  .lni {
+    font-size: 4vw;
+    color: #4065a8;
     transition: 250ms;
   }
 }
